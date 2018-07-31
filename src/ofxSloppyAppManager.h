@@ -69,7 +69,7 @@ namespace aaa{
                 : t(&t)
                 {}
                 
-                value_setter(value_setter<T>& vs)
+                value_setter(const value_setter<T>& vs)
                 : t(vs.t)
                 {}
                 
